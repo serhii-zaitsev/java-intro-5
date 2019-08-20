@@ -3,5 +3,6 @@ public class First {
         System.out.println("Hello World");
         System.out.println("Hello");
         System.out.println("Uhim");
+        System.out.println(5 + 5);
     }
 }
