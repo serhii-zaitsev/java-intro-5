@@ -5,5 +5,6 @@ public class First {
         System.out.println("Uhim");
         System.out.println(5 + 5);
         System.out.println(5 + 100);
+        System.out.println(5 + 1000);
     }
 }
