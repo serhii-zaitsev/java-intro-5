@@ -1,7 +1,6 @@
 package lesson02;
 
 public class ExecuteLessonTwo {
-
     public static String eachNth(String str, int n){
         int count = 0;
         char[] mas = str.toCharArray();
