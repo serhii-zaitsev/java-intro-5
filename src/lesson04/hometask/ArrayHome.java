@@ -64,7 +64,5 @@ removeEl(al1 ,0);
             System.out.println(iter);
         }
 
-
-
     }
 }
