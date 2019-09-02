@@ -35,11 +35,8 @@ public class SearchTest {
 
     @Test(timeout = 5000l)
     public void verifyFirstTipIsCorrect() {
-        driver.findElement(By.id("search_query_top"))
-                .clear();
-        driver.findElement(By.id("search_query_top"))
-                .sendKeys("Printed Summer Dress");
-
+        driver.findElement(By.id("search_query_top")).clear();
+        driver.findElement(By.id("search_query_top")).sendKeys("Printed Summer Dress");
         driver.findElement(By.name("submit_search")).click();
 
         List<WebElement> allItems = driver.findElements(By.xpath("//div[@class='right-block']//a[@title='Printed Summer Dress']"));
